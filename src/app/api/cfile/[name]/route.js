@@ -177,7 +177,7 @@ async function getFile_path(env, file_id) {
     const res = await fetch(url, {
       method: 'GET',
       headers: {
-        "User-Agent": " Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome"
+        "User-Agent": " Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0"
       },
     })
 
